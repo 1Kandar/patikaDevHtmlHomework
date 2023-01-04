@@ -28,10 +28,18 @@ background: linear-gradient(0deg, rgba(249,124,191,1) 0%, rgba(235,86,121,0.8043
 
 h2{
     padding: 15px 15px 15px 15px;
+    margin-bottom: 15px;
+}
+
+ul{
+    padding: 15px 15px 15px 15px;
+    margin: 15px;
 }
 
 p{
     padding: 15px 15px 15px 15px;
+    margin-bottom: 15px;
+
 }
 body{
     background: rgb(36,180,156);
