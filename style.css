@@ -1,0 +1,40 @@
+.title {
+    width: 35%;
+    height: 55px;
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    border-radius: 2;
+    background: rgb(249,124,191);
+background: linear-gradient(0deg, rgba(249,124,191,1) 0%, rgba(235,86,121,0.804359243697479) 100%);
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+    font-size: 50px;
+}
+
+
+.sub-titles{
+    width: 35%;
+    border: 0;
+    border-style: solid;
+    border-radius: 2;
+    background: rgb(249,124,191);
+background: linear-gradient(0deg, rgba(249,124,191,1) 0%, rgba(235,86,121,0.804359243697479) 100%);
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 15px auto 15px;
+    padding: 25px auto 25px;
+}
+
+h2{
+    padding-left: 15px;
+}
+
+p{
+    padding-left: 15px;
+}
+body{
+    background: rgb(36,180,156);
+    background: linear-gradient(90deg, rgba(36,180,156,1) 0%, rgba(21,230,196,1) 48%, rgba(135,209,224,1) 91%);
+  
+}
