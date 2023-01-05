@@ -1,0 +1,160 @@
+body{
+    background: rgb(232, 238, 237);
+    background: linear-gradient(90deg, rgb(19, 125, 187) 1%, rgb(135, 197, 233) 50%, rgb(19, 125, 187) 99%);
+    font-family: Montserrat;
+}
+
+.logo{
+    width: 50rem;
+    height: 5.3rem;
+    position: absolute;
+    top: 1rem;
+    right: 29%;
+}
+
+.title {
+    width: 27%;
+    height: 4rem;
+    text-align: center;
+    border: 3px;
+    border-color: #1F1D36;
+    border-style: solid;
+    border-radius: 10px;
+    background: linear-gradient(90deg,#915575 05%, #D989B5 50%,#915575    100%);
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+    font-size: 35px;
+    font-family: Montserrat;
+    
+}
+
+
+.sub-titles{
+    width: 65%;
+    border: 3px;
+    border-color: #1F1D36;
+    border-style: solid;
+    border-radius: 10px;
+    background: linear-gradient(90deg,#915575 05%, #D989B5 50%,#915575      100%);
+    
+    margin: 15px auto 15px;
+    padding: 25px auto 25px;
+    padding-bottom: 150px;
+    
+}
+
+
+h1{
+    font-size: 30px;
+    color: #1F1D36;
+    
+    
+}
+
+.imdb{
+    display: block;
+    margin: 15px auto 25px auto;
+    font-size: 20px;
+    color:#1F1D36;
+}
+
+.list{
+    font-family: Montserrat;
+    text-decoration-style: double;
+    text-align: left;
+    font-size: 35px;
+    color: #1F1D36;
+    
+   
+}
+h2,h3{
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 15px;
+    font-family: Montserrat;
+    color: #1F1D36;
+}
+
+h4{
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 1%;
+    margin-top: 2px;
+    font-family: Montserrat;
+    color: #1F1D36;
+}
+p{
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 15px;
+    font-family: Montserrat;
+    font-size: 20px;
+
+}
+
+hr{
+    margin: 75px auto;  
+    border:#1F1D36 dotted 6px;
+    width: 35%;
+    border-bottom: none;
+
+}
+.music,.songName{
+    display: inline-block;
+    
+}
+.songName{
+   position: relative;
+   bottom:  20px;
+   padding-left: 30px;
+}
+
+
+
+
+
+
+ul{
+    padding: 15px 15px 15px 15px;
+    margin: 15px;
+    font-family: Montserrat;
+    list-style-type:none;
+}
+
+.movies-table{
+    text-align:center;
+    font-family: Montserrat;
+}
+
+.movies{
+    border: 6px;
+    border-color: #1F1D36;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.game-title{
+    font-size: larger;
+    margin: 75px auto 15px auto;
+    padding-bottom: 3px;
+}
+
+.games{
+    text-align:center;
+
+}
+
+iframe{
+    border: 6px;
+    border-color: #1F1D36;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    color: #1F1D36;
+
+}
+/* 
+*/
