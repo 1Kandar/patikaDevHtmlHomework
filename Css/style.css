@@ -38,12 +38,26 @@ body{
     border-style: solid;
     border-radius: 10px;
     background: linear-gradient(90deg,#915575 05%, #D989B5 50%,#915575      100%);
-    
-    margin: 15px auto 15px;
+    margin: 250px auto 15px;
     padding: 25px auto 25px;
     padding-bottom: 150px;
     
 }
+
+
+.about{
+    width: 64.5%;
+    height: 200px;
+    border: 3px;
+    border-color: #1F1D36;
+    border-style: solid;
+    border-radius: 10px;
+    background: linear-gradient(90deg,#915575 05%, #D989B5 50%,#915575      100%);
+    right:17.6%;
+    position: absolute;
+    margin-bottom: 100px;
+}
+
 
 
 h1{
@@ -85,10 +99,11 @@ h4{
     color: #1F1D36;
 }
 p{
-    padding: 15px 15px 15px 15px;
-    margin-bottom: 15px;
+    padding: 15px 15px 1px 15px;
+    margin-bottom: 1px;
     font-family: Montserrat;
     font-size: 20px;
+    position: relative;
 
 }
 
