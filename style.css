@@ -1,48 +1,79 @@
-.title {
-    width: 35%;
-    height: 55px;
-    text-align: center;
-    border: 2px;
-    border-style: solid;
-    border-radius: 2;
-    background: rgb(249,124,191);
-background: linear-gradient(0deg, rgba(249,124,191,1) 0%, rgba(235,86,121,0.804359243697479) 100%);
-    margin: auto;
-    margin-top: 1%;
-    margin-bottom: 1.5%;
-    font-size: 50px;
+body{
+    background: rgb(232, 238, 237);
+    background: linear-gradient(90deg, rgb(5, 64, 99) 1%, rgb(80, 175, 230) 50%, rgb(5, 64, 99) 98%);
+    font-family: Montserrat;
 }
 
-
-.sub-titles{
-    width: 45%;
-    border: 0;
-    border-style: solid;
-    border-radius: 2;
-    background: rgb(249,124,191);
-background: linear-gradient(0deg, rgba(249,124,191,1) 0%, rgba(235,86,121,0.804359243697479) 100%);
-    font-family:Arial, Helvetica, sans-serif ;
-    margin: 15px auto 15px;
-    padding: 25px auto 25px;
+h1{
+    font-size: 30px;
+    color: #1F1D36;
 }
 
 h2{
     padding: 15px 15px 15px 15px;
     margin-bottom: 15px;
-}
-
-ul{
-    padding: 15px 15px 15px 15px;
-    margin: 15px;
+    font-family: Montserrat;
+    color: #1F1D36;
 }
 
 p{
     padding: 15px 15px 15px 15px;
     margin-bottom: 15px;
+    font-family: Montserrat;
+    font-size: 17px;
 
 }
-body{
-    background: rgb(36,180,156);
-    background: linear-gradient(90deg, rgba(36,180,156,1) 0%, rgba(21,230,196,1) 48%, rgba(135,209,224,1) 91%);
-  
+
+.title {
+    width: 35%;
+    height: 55px;
+    text-align: center;
+    border: 3px;
+    border-color: #4A1C40;
+    border-style: solid;
+    border-radius: 10px;
+    background: rgb(249,124,191);
+    background: linear-gradient(90deg,#9D3C72 5%, #D989B5 50%,#9D3C72    99%);
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+    font-size: 35px;
+    font-family: Montserrat;
+    
 }
+
+
+.sub-titles{
+    width: 45%;
+    border: 3px;
+    border-color: #4A1C40;
+    border-style: solid;
+    border-radius: 10px;
+    background: linear-gradient(90deg,#9D3C72 5%, #D989B5 50%,#9D3C72    99%);
+    
+    margin: 15px auto 15px;
+    padding: 25px auto 25px;
+    
+}
+
+
+
+.movies-table{
+    text-align:center;
+    font-family: Montserrat;
+}
+
+.movies{
+    border: 6px;
+    border-color: #4A1C40;
+    border-style: solid;
+    border-radius: 10px;
+}
+ul{
+    padding: 15px 15px 15px 15px;
+    margin: 15px;
+    font-family: Montserrat;
+    list-style-type:none;
+}
+
